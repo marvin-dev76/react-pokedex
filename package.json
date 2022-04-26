@@ -2,7 +2,7 @@
   "name": "react-redux-pokeapi",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://marvin-dev76.github.io/react-pokedex",
+  "homepage": "https://marvin-dev76.github.io/react-pokedex/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.0.1",
