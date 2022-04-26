@@ -1,0 +1,54 @@
+.pokeform {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.pokeform-input {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 6px;
+  background-color: var(--light-bg);
+  outline: none;
+  border: none;
+  width: 50%;
+  font-family: 'Roboto';
+}
+
+::placeholder {
+  font-size: 1rem;
+  color: var(--light-fg);
+}
+
+.pokeform-search {
+  padding: 10px;
+  background-color: var(--primary);
+  color: var(--bg);
+  font-size: 1rem;
+  font-family: 'Roboto';
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.pokeform-clear {
+  padding: 10px;
+  background-color: var(--light-bg);
+  color: var(--light-fg);
+  font-size: 1rem;
+  font-family: 'Roboto';
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .pokeform {
+    flex-wrap: wrap;
+  }
+  
+  .pokeform-input {
+    width: 100%;
+  }
+}

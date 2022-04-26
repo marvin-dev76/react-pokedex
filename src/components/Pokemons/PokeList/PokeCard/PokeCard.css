@@ -1,0 +1,53 @@
+.pokecard {
+  padding: 20px;
+  border-radius: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  cursor: pointer;
+  background-color: var(--light-bg);
+  -webkit-tap-highlight-color: transparent;
+  color: var(--fg);
+}
+
+.pokecard:hover .poke-img {
+  transform: scale(1.2);
+}
+
+.poke-img {
+  width: 50%;
+  transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) transform .2s;
+  filter: drop-shadow(5px 5px 1px #aaaaaa);
+}
+
+.pokecard h3 {
+  font-weight: 500;
+}
+
+.poke-name {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.poke-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.poke-types {
+  display: flex;
+  gap: 30px;
+  text-transform: capitalize;
+}
+
+.type {
+  padding: 10px;
+  border-radius: 12px;
+  text-align: center;
+  color: var(--fg);
+  width: 100px;
+}

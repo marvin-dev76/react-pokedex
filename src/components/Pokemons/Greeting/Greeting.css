@@ -1,0 +1,13 @@
+.greeting {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.greeting h1 {
+  font-weight: 500;
+}
+
+.greeting p {
+  color: var(--light-fg);
+}

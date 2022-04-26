@@ -1,0 +1,107 @@
+.poke-specific {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+  gap: 50px;
+}
+
+.back-arrow {
+  width: max-content;
+  cursor: pointer;
+}
+
+.poke-specific-header {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.poke-specific-name {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.poke-specific-img {
+  width: 80%;
+  transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) transform .2s;
+  filter: drop-shadow(5px 5px 1px #aaaaaa);
+}
+
+.poke-specific-img:hover {
+  transform: scale(1.1);
+}
+
+.poke-specific-info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.poke-specific-types {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+
+.poke-specific-type {
+  padding: 10px;
+  border-radius: 6px;
+  width: 100px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.poke-specific-desc {
+  font-style: italic;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.poke-specific-abilities-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.poke-specific-stat-bar {
+  padding: 10px 0px;
+  background-color: var(--primary);
+  border-radius: 6px;
+}
+
+.poke-specific-stat-bar-bg {
+  background-color: var(--primary);
+  border-radius: 6px;
+  background-color: var(--light-bg);
+}
+
+@media only screen and (max-width: 768px) {
+  
+  .poke-specific {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .poke-specific-header {
+    width: 100%;
+  }
+
+  .poke-specific-info {
+    width: 100%;
+  }
+  .poke-specific-desc {
+    font-style: italic;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+}
